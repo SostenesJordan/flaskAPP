@@ -93,4 +93,4 @@ def logout():
 
     return redirect(url_for('login'))
 
-app.run( debug = True )
+app.run( )
